@@ -1,0 +1,38 @@
+{
+  "name": "ssireturns",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "profile": {
+      "type": "object",
+      "required": true
+    },
+    "timeStamp": {
+      "type": "date",
+      "required": true
+    },
+    "dob": {
+      "type": "string",
+      "required": false
+    },
+    "income": {
+      "type": "number",
+      "required": false
+    },
+    "ssiAmount": {
+      "type": "number",
+      "required": false
+    },
+    "monthlybenefit": {
+      "type": "array",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
